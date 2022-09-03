@@ -1,7 +1,7 @@
 # Unlimited Word Guesser (Wordle)
-A SwiftUI-based recreation of the popular game Wordle, featuring different word sizes, user profile, and stats. 
+A SwiftUI-based recreation of the popular game [Wordle](https://www.nytimes.com/games/wordle/index.html), featuring different word sizes, user profile, and stats. 
 
-My parents absolutely love Wordle and have played it everyday since it went viral, with one downside: "one word per day". As a result, I decided to recreate the popular website for iOS 16 with SwiftUI and add in a few fun features for them.
+My parents absolutely love Wordle and have played it everyday since it went viral, with one downside: "one word per day". As a result, I decided to recreate the popular website for iOS 16 with [SwiftUI](https://developer.apple.com/documentation/swiftui/) and add in a few fun features for them.
 
 As my first published project on GitHub, any feedback/advice is very much appreciated!
 
@@ -44,8 +44,8 @@ As my first published project on GitHub, any feedback/advice is very much apprec
 
 **Swift & SwiftUI 4, targeted for iOS 16.0**
   - Composing views is very efficient in SwiftUI and becoming increasingly popular. I wanted to familiarize myself with SwiftUI design patterns as well as demonstrate a working app. A best practice I learned was to make view components as small and light as possible and group them within parent views. 
-  - NavigationStack (trivial implementation, as navigation was pushed with .sheet modifiers and navigationLinks)
-  - Result sharing with link to app (production link would redirect to appstore listing, current link redirects to this repo)
+  - [NavigationStack](https://developer.apple.com/documentation/swiftui/navigationstack) (trivial implementation, as navigation was pushed with .sheet modifiers and navigationLinks)
+  - [ShareLink](https://developer.apple.com/documentation/SwiftUI/ShareLink): Result sharing with link to app (production link would redirect to appstore listing, current link redirects to this repo)
  
 **Design**
 - App-wide accent color theming
@@ -66,8 +66,7 @@ As my first published project on GitHub, any feedback/advice is very much apprec
 - Create a "Hint" function and Button that, when tapped, would reveal to the user a random, unused letter after a number of unsuccessful guesses.
 - Implement Additional SWiftUI 4 / iOS 16 technologies
   - Charts for User Stats
-  - Implement AnyLayout ViewThatFits for horizontal device orientation
-- Enable >Sign in with Apple
-- User Rankings and Statistics via Firebase / Cloudkit
+  - Implement ViewThatFits for horizontal device orientation
+- Enable Sign in with Apple
 
 
