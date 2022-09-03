@@ -12,6 +12,14 @@ As my first published project on GitHub, any feedback/advice is very much apprec
 - 4 different game modes: 5-Letter, 6-Letter, 7-Letter, 8-Letter
 - Unlimited rounds! Cycle through all 5000+ words if you have the time!
 
+<p float="left">
+<img src="https://user-images.githubusercontent.com/108420692/188286237-82f1dfbf-3396-42e5-aa19-1ecbfe3ab3eb.PNG" width=20% height=20%>
+<img src="https://user-images.githubusercontent.com/108420692/188286219-3f3f6314-feeb-4af9-b574-887deb8dd3ca.PNG" width=20% height=20%>
+<img src="https://user-images.githubusercontent.com/108420692/188286243-b84d7c74-6c85-4b9c-84f6-d556e3c29212.PNG" width=20% height=20%>
+<img src="https://user-images.githubusercontent.com/108420692/188286246-50afd961-c72a-4649-b67b-a9a396a9f805.PNG" width=20% height=20%>
+</p>
+
+
 - User Profile:
    - App only requests name and no other personal information.
    - Individual statistics for each game mode 
