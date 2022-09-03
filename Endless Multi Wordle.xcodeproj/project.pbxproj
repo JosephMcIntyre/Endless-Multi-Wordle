@@ -11,7 +11,6 @@
 		9FF9080B28C3E2D700E5EA51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9080A28C3E2D700E5EA51 /* ContentView.swift */; };
 		9FF9080D28C3E2D800E5EA51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9080C28C3E2D800E5EA51 /* Assets.xcassets */; };
 		9FF9081028C3E2D800E5EA51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FF9080F28C3E2D800E5EA51 /* Preview Assets.xcassets */; };
-		9FF9081F28C3E38000E5EA51 /* EightLetterWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9081E28C3E38000E5EA51 /* EightLetterWords.swift */; };
 		9FF9082128C3E39800E5EA51 /* SevenLetterWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9082028C3E39800E5EA51 /* SevenLetterWords.swift */; };
 		9FF9082328C3E3B300E5EA51 /* SixLetterWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9082228C3E3B300E5EA51 /* SixLetterWords.swift */; };
 		9FF9082528C3E3D200E5EA51 /* FiveLetterWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9082428C3E3D200E5EA51 /* FiveLetterWords.swift */; };
@@ -35,6 +34,7 @@
 		9FF9084B28C3E5BC00E5EA51 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9084A28C3E5BC00E5EA51 /* AboutView.swift */; };
 		9FF9084D28C3E5C800E5EA51 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9084C28C3E5C800E5EA51 /* ProfileView.swift */; };
 		9FF9084F28C3E5D700E5EA51 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9084E28C3E5D700E5EA51 /* StatsView.swift */; };
+		9FF9085128C3EEB700E5EA51 /* EightLetterWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9085028C3EEB700E5EA51 /* EightLetterWords.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +44,6 @@
 		9FF9080C28C3E2D800E5EA51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FF9080F28C3E2D800E5EA51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9FF9081628C3E2EA00E5EA51 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		9FF9081E28C3E38000E5EA51 /* EightLetterWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightLetterWords.swift; sourceTree = "<group>"; };
 		9FF9082028C3E39800E5EA51 /* SevenLetterWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenLetterWords.swift; sourceTree = "<group>"; };
 		9FF9082228C3E3B300E5EA51 /* SixLetterWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixLetterWords.swift; sourceTree = "<group>"; };
 		9FF9082428C3E3D200E5EA51 /* FiveLetterWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveLetterWords.swift; sourceTree = "<group>"; };
@@ -68,6 +67,7 @@
 		9FF9084A28C3E5BC00E5EA51 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		9FF9084C28C3E5C800E5EA51 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		9FF9084E28C3E5D700E5EA51 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		9FF9085028C3EEB700E5EA51 /* EightLetterWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightLetterWords.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +146,7 @@
 		9FF9081928C3E31A00E5EA51 /* WordBanks */ = {
 			isa = PBXGroup;
 			children = (
-				9FF9081E28C3E38000E5EA51 /* EightLetterWords.swift */,
+				9FF9085028C3EEB700E5EA51 /* EightLetterWords.swift */,
 				9FF9082028C3E39800E5EA51 /* SevenLetterWords.swift */,
 				9FF9082228C3E3B300E5EA51 /* SixLetterWords.swift */,
 				9FF9082428C3E3D200E5EA51 /* FiveLetterWords.swift */,
@@ -273,12 +273,12 @@
 				9FF9084728C3E59700E5EA51 /* ThemingExtensions.swift in Sources */,
 				9FF9082728C3E3E200E5EA51 /* KeyboardLetters.swift in Sources */,
 				9FF9082D28C3E43700E5EA51 /* AppManager.swift in Sources */,
+				9FF9085128C3EEB700E5EA51 /* EightLetterWords.swift in Sources */,
 				9FF9083528C3E4C300E5EA51 /* ResultsView.swift in Sources */,
 				9FF9083728C3E4D800E5EA51 /* RoundResultsSheet.swift in Sources */,
 				9FF9084D28C3E5C800E5EA51 /* ProfileView.swift in Sources */,
 				9FF9083328C3E4B600E5EA51 /* EndRoundButtons.swift in Sources */,
 				9FF9082B28C3E42C00E5EA51 /* GameManager.swift in Sources */,
-				9FF9081F28C3E38000E5EA51 /* EightLetterWords.swift in Sources */,
 				9FF9083D28C3E50900E5EA51 /* PuzzleRow.swift in Sources */,
 				9FF9083B28C3E4FB00E5EA51 /* PuzzleLetter.swift in Sources */,
 				9FF9083F28C3E54200E5EA51 /* CustomKeyboard.swift in Sources */,
