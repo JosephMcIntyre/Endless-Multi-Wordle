@@ -3,6 +3,8 @@ A SwiftUI-based recreation of the popular game Wordle, featuring different word 
 
 My parents absolutely love Wordle and have played it everyday since it went viral, with one downside: "one word per day". As a result, I decided to recreate the popular website for iOS 16 with SwiftUI and add in a few fun features for them.
 
+As my first published project on GitHub, any feedback/advice is very much appreciated!
+
 ## Overview & Functionality
  
 - Classic Wordle Structure: An n-length word randomly chosen from a word bank with n+1 guesses allowed

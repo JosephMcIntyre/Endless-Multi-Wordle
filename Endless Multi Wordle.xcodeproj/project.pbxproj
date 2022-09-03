@@ -43,7 +43,7 @@
 		9FF9080A28C3E2D700E5EA51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9FF9080C28C3E2D800E5EA51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FF9080F28C3E2D800E5EA51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9FF9081628C3E2EA00E5EA51 /* Endless Multi Wordle.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "Endless Multi Wordle.md"; sourceTree = SOURCE_ROOT; };
+		9FF9081628C3E2EA00E5EA51 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		9FF9081E28C3E38000E5EA51 /* EightLetterWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EightLetterWords.swift; sourceTree = "<group>"; };
 		9FF9082028C3E39800E5EA51 /* SevenLetterWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenLetterWords.swift; sourceTree = "<group>"; };
 		9FF9082228C3E3B300E5EA51 /* SixLetterWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixLetterWords.swift; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 				9FF9081828C3E30B00E5EA51 /* Data Models */,
 				9FF9081728C3E2FF00E5EA51 /* Views */,
 				9FF9081928C3E31A00E5EA51 /* WordBanks */,
-				9FF9081628C3E2EA00E5EA51 /* Endless Multi Wordle.md */,
+				9FF9081628C3E2EA00E5EA51 /* README.md */,
 				9FF9080C28C3E2D800E5EA51 /* Assets.xcassets */,
 				9FF9080E28C3E2D800E5EA51 /* Preview Content */,
 			);
